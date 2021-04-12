@@ -11,7 +11,8 @@ const UserRouter = require('./src/routes/userRouter');
 const app = express();
 const port = process.env.port || 7000;
 
-connect('mongodb+srv://admin:admin@cluster0.epyuz.mongodb.net/toDoDB', { useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify: false });
+connect(process.env.DOBB_URL,
+  { useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify: false });
 
 app.use(cors());
 
