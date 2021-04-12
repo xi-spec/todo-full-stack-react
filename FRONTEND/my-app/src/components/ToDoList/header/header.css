@@ -1,0 +1,12 @@
+.toDo__header{
+    display: flex;
+    width: 380px;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.log-btn:hover{
+    color:white;
+    background-color: black;
+}
+

@@ -1,0 +1,43 @@
+.todo{
+    width: 380px;
+}
+ul,li{
+ margin: 0;
+ padding: 0;
+}
+.todo-input{
+    width: 300px;
+    height: 35px;
+    border:0.5px solid rgb(223, 223, 223);
+    margin:0;
+    outline: none;
+
+}
+.input-group{
+    width: 300px;
+    margin: 10px 0 10px 0;
+}
+
+
+.list{
+    display: flex;
+}
+
+.form-control{
+    text-align: center;
+}
+.btn{
+
+    margin-left: 15px;
+    border-radius: 5%;
+}
+.delete-btn{
+    margin-top: 12px;
+    height: 35px;
+    width: 45px;
+}
+.btn:hover{
+    background-color: black;
+    color:white;
+    
+}
