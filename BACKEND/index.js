@@ -4,6 +4,7 @@ const chalk = require('chalk');
 const debug = require('debug')('app');
 const cors = require('cors');
 const { connect } = require('mongoose');
+require('dotenv').config();
 
 const toDoRouter = require('./src/routes/toDoRouter');
 const UserRouter = require('./src/routes/userRouter');
